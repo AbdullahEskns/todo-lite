@@ -1,0 +1,14 @@
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Arial}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f5f5;padding:24px}
+.card{width:min(520px,100%);background:#fff;border:1px solid #e8e8e8;border-radius:16px;padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+h1{margin:0 0 16px}
+.row{display:flex;gap:10px;align-items:center}
+.row-between{justify-content:space-between;margin-top:10px}
+input{flex:1;padding:12px;border:1px solid #ddd;border-radius:10px}
+button{padding:12px 14px;border:1px solid #111;background:#111;color:#fff;border-radius:10px;cursor:pointer}
+button.secondary{background:#fff;color:#111;border-color:#ddd}
+.list{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px}
+.item{display:flex;align-items:center;justify-content:space-between;padding:12px;border:1px solid #eee;border-radius:12px}
+.item.done{opacity:.65;text-decoration:line-through}
+.item small{color:#666}
+.hint{color:#666;margin:12px 0 0;font-size:14px}

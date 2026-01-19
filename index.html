@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Todo Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Todo Lite ✅</h1>
+
+    <form id="form" class="row">
+      <input id="taskInput" type="text" placeholder="اكتب مهمة..." autocomplete="off" />
+      <button type="submit">إضافة</button>
+    </form>
+
+    <div class="row row-between">
+      <p id="count">0 مهام</p>
+      <button id="clear" type="button" class="secondary">مسح الكل</button>
+    </div>
+
+    <ul id="list" class="list"></ul>
+
+    <p class="hint">نصيحة: اضغط على المهمة لتعليمها “تم”.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
