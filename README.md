@@ -1,2 +1,2 @@
 # todo-lite
-this is test repo
+مشروع Todo بسيط للتعلم
